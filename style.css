@@ -1,0 +1,130 @@
+body {
+    background-image: linear-gradient(to top, #BDFE50, #65F602, #29E203);
+}
+
+#container {
+    display:flex ; /*centralizar as imagens*/
+}
+.col {
+    padding: 10px 40px; /*matgem interna*/
+}
+.card {
+    border-radius: 10px; /*canto arredondado*/
+    padding: 0px;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s linear; /*aparecimento de sombra maislento*/
+}
+.card img {
+    width: 100%;
+    display: block;
+    transition: all 0.3s linear;
+}
+.card h4 {
+    text-align: center;
+    color: rgb(255, 255, 255) ;
+    font-size: 16px;
+    text-shadow: 100px 100px 100px rgb(0, 0, 0);
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+    top: 132px;
+}
+.cr7careca h5{
+    opacity: 0;
+    text-align: center;
+    color: rgb(0, 0, 0) ;
+    font-size: 16px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    top: 5px;
+}
+.neycareca h5{
+    opacity: 0;
+    text-align: center;
+    color: rgb(0, 0, 0) ;
+    font-size: 16px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    top: -5px;
+}
+.felipecareca h5{
+    opacity: 0;
+    text-align: center;
+    color: rgb(0, 0, 0) ;
+    font-size: 16px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    top: -10px;
+}
+.faustaocareca h5{
+    opacity: 0;
+    text-align: center;
+    color: rgb(0, 0, 0) ;
+    font-size: 16px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    top: -20px;
+}
+.justincareca h5{
+    opacity: 0;
+    text-align: center;
+    color: rgb(0, 0, 0) ;
+    font-size: 16px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    top: 17px;
+}
+.veio h5{
+    opacity: 0;
+    text-align: center;
+    color: rgb(0, 0, 0) ;
+    font-size: 16px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    top: 13px;
+}
+.orochicareca h5{
+    opacity: 0;
+    text-align: center;
+    color: rgb(0, 0, 0) ;
+    font-size: 16px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    top: 30px;
+}
+.diamante h5{
+    opacity: 0;
+    text-align: center;
+    color: rgb(0, 0, 0) ;
+    font-size: 14px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+    position: absolute;
+    top: -15px;
+}
+.card:hover{
+    box-shadow: 0 0 70px rgb(253, 246, 179);
+    border: solid 2px white;
+}
+.card:hover img {
+    scale: 1.05;
+    opacity: 0.5;
+}
+
+.card:hover h5 {
+    opacity: 100;
+}
